@@ -21,17 +21,22 @@ body {
 	padding: 1px;
 	height: 48px;
 }
+
+#title {
+	color: white;
+	float: left;
+	padding: 10px;
+	font-size: 20px;#
+	letter-spacing: 15px;
+}
+
 .top-bar ul {
 	list-style-type: none;
 }
 .top-bar li {
 	display: inline;
-	margin: 20px;
+	padding: 20px;
 } 
-
-.top-bar li:hover {
-	background-color: #999999;
-}
 
 .top-bar a {
 	color: white;
@@ -39,8 +44,8 @@ body {
 }
 
 .top-bar a:hover {
-	
-
+	font-weight: bold;
+	letter-spacing: 5px;
 }
 
 .content {
