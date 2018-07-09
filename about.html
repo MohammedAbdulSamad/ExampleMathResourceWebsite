@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MathSkills </title>
+	<link rel = "stylesheet" type = "text/css" href = "style.css" />
+</head>
+<body>
+<div class = "container">
+	<div class = "top-bar"> 
+		<div id = "title">
+			 <a href = "index.html"> MATHSKILLS </a>
+		</div>
+		<ul>
+			<li><a href="javascript:void(0)" onclick="openNav()"> Menu &#9776; </a></li>
+		</ul>
+		
+		
+		
+	</div>
+
+	<div id="sideNavMenu" class="sideNav">
+		<a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+		<a href="about.html"> About </a>
+		<a href=""> Games </a>
+		<a href=""> Quiz </a>
+	</div>
+
+
+	
+
+	<div class = "content">
+
+		<img src="images/main_img.png" alt="MATHSKILLS logo">
+
+		<div class = "section">
+			<h1> About </h1>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div> 
+	
+	</div>
+
+	<div class = "footer"><p> Copyright &copy; Mohammed Samad </p></div>
+
+</div>
+
+<script>
+function openNav() {
+	document.getElementById("sideNavMenu").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("sideNavMenu").style.width = "0";
+}
+</script>
+
+</body>
+</html>
